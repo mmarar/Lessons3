@@ -1,6 +1,11 @@
 #coding: utf-8
-print('Введите x')
+print('Input x')
 x = input()
-print((x+2)/(x-2))
+if x == 2:
+    print("x can't be 0")
+    pass
+else:
+    print((x+2)/(x-2))
+
 
 
