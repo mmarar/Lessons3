@@ -1,8 +1,11 @@
 #coding: utf-8
-print('Введите x')
+print('Input x')
 x = input()
-print('Введите y')
+print('Input y')
 y = input()
-print((x+y)/(x-y))
-
-
+z = x - y
+if z == 0:
+    print ("Division by 0")
+    pass
+else:
+    print '(x+y)/(x-y)=', ((x+y)/z)
