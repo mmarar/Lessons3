@@ -1,6 +1,6 @@
 #coding: utf-8
 print('Input x')
-x = input()
+x = float(input())
 print('Input y')
 y = input()
 z = x - y
